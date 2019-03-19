@@ -9,9 +9,9 @@ https://arxiv.org/abs/1903.06287
 ## How to launch the simulation files 
 
 - Install the Python module found on https://github.com/wittawatj/interpretable-test from Wittawat Jitkrittum via the command:
-''pip install git+https://github.com/wittawatj/interpretable-test''
-Once installed, you should be able to ''import freqopttest''.
-- Install our R-package hypoRF found in \hypoRF_Code\hypoRF via R command ''install.packages("../hypoRF/", repos = NULL, type = "source")''.
-- Make sure you have installed the R-packages ''ranger'', ''mvtnorm'', ''reticulate'', ''MASS'' and ''parSim'' (only necessary if you are interested in parallel computing).
+``pip install git+https://github.com/wittawatj/interpretable-test``
+Once installed, you should be able to ``import freqopttest``.
+- Install our R-package hypoRF found in \hypoRF_Code\hypoRF via R command ``install.packages("../hypoRF/", repos = NULL, type = "source")``.
+- Make sure you have installed the R-packages ``ranger``, ``mvtnorm``, ``reticulate``, ``MASS`` and ``parSim`` (only necessary if you are interested in parallel computing).
 - Launch the desired simulation R-file locally in the folder \hypoRF_Code\Replicate_Simulations.
 If you want to save or plot any result, use the outcommented code at the end of each script.
