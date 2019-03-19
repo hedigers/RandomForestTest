@@ -1,0 +1,19 @@
+Package: hypoRF
+Type: Package
+Title: Random Forest Two-Sample-Test 
+Version: 1.0.0
+Authors@R: as.person(c(
+    "Hediger Simon <simon.hediger@uzh.ch> [aut, cre]", 
+    "Michel Loris <> [aut]",
+    "Naef Jeffrey <> [aut]"
+  ))
+Maintainer: Hediger Simon <simon.hediger@uzh.ch>
+Description: We follow the line of using classifiers for two-sample testing and propose several tests based on the Random Forest classifier. The developed tests are easy to use, require no tuning and are applicable for \emph{any} distribution on $\R^p$, even in high-dimensions. We provide a comprehensive treatment for the use of classification for two-sample testing, derive the distribution of our tests under the Null and provide a power analysis, both in theory and with simulations.
+License: GPL-3
+Imports: stats,
+         ranger
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+RoxygenNote: 6.1.1

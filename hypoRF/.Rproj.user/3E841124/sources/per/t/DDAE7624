@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544523136273.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4229877617",
+    "id" : "DDAE7624",
+    "lastKnownWriteTime" : 1544522968,
+    "last_content_update" : 1544522968,
+    "path" : "C:/Users/admin/Dropbox/Econometrica_paper/Draft1_RFTestonly/R scripts/hypoRF/tests/testthat.R",
+    "project_path" : "tests/testthat.R",
+    "properties" : {
+        "cursorPosition" : "4,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
