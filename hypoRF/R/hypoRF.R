@@ -27,8 +27,8 @@
 #' @seealso \code{\link{ranger}}
 #' @examples
 #' # Using the default testing procedure (permutation test)
-#' x1 <- data.frame(x=rt(100, df=1.5))
-#' x2 <- data.frame(x=rnorm(100))
+#' x1 <- data.frame(x=stats::rt(100, df=1.5))
+#' x2 <- data.frame(x=stats::rnorm(100))
 #' hypoRF(x1, x2)
 #' # Using the exact binomial test
 #' hypoRF(x1, x2, K=1)
@@ -142,7 +142,7 @@ hypoRF <- function(data1, data2, K = 100,
       if(add.param$importance == "impurity"){
         importance <- as.matrix(ranger::importance(rf))
         importance_ranking <- as.matrix(importance)
-        cutoff<-quantile(importancedistribution , 1-alpha)
+        cutoff<-stats::quantile(importancedistribution , 1-alpha)
 
       }
     } else {
@@ -208,7 +208,7 @@ hypoRF <- function(data1, data2, K = 100,
 
       } else {
         obs <- (obs1 + obs2 -1)/sqrt(obs1*(1-obs1)/m1+obs2*(1-obs2)/m2)
-        pvalue <- pnorm(obs,mean=0,sd=1)
+        pvalue <- stats::pnorm(obs,mean=0,sd=1)
       }
 
     }
