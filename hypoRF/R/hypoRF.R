@@ -1,6 +1,6 @@
 #' HypoRF; a Random Forest based Two Sample Test
 #'
-#' @description Performs a permutation two sample test based on the out-of-bag-error of random forest, see
+#' @description Performs a permutation two sample test based on the out-of-bag-error of random forest, see:
 #'\url{https://www.sciencedirect.com/science/article/pii/S0167947322000159}.
 #'
 #' @param data1 An object of type "data.frame". The first sample.
