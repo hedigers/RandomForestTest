@@ -8,7 +8,7 @@ Authors@R: as.person(c(
     "Naef Jeffrey <> [aut]"
   ))
 Maintainer: Hediger Simon <simon.hediger@uzh.ch>
-Description:  An implementation of Random Forest-based two-sample tests as introduced in Hediger & Michel & Naef (2022): https://www.sciencedirect.com/science/article/pii/S0167947322000159. 
+Description:  An implementation of Random Forest-based two-sample tests as introduced in Hediger & Michel & Naef (2022): <https://www.sciencedirect.com/science/article/pii/S0167947322000159>. 
 License: GPL-3
 Imports: stats,
          ranger
