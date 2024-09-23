@@ -1,14 +1,14 @@
 Package: hypoRF
 Type: Package
 Title: Random Forest Two-Sample Tests 
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: as.person(c(
     "Hediger Simon <simon.hediger@uzh.ch> [aut, cre]", 
     "Michel Loris <> [aut]",
     "Naef Jeffrey <> [aut]"
   ))
 Maintainer: Hediger Simon <simon.hediger@uzh.ch>
-Description:  An implementation of Random Forest-based two-sample tests as introduced in Hediger & Michel & Naef (2020) <arXiv:1903.06287>
+Description:  An implementation of Random Forest-based two-sample tests as introduced in Hediger & Michel & Naef (2022): https://www.sciencedirect.com/science/article/pii/S0167947322000159. 
 License: GPL-3
 Imports: stats,
          ranger
@@ -16,4 +16,4 @@ Encoding: UTF-8
 LazyData: true
 Suggests: 
     testthat
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.2

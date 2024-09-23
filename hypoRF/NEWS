@@ -1,0 +1,4 @@
+# version 1.0.1
+
+## Bug Fixes
+- defined obs in the case where (sqrt(obs1 * (1 - obs1) + obs2 * (1 - obs2)) == 0)

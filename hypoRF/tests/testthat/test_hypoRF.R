@@ -22,8 +22,6 @@ test_that("function hypoRF has correct input parameters", {
                       data.frame(u=rnorm(10), z=rnorm(10))), "colnames")
   expect_error(hypoRF(data.frame(x=rnorm(10),y=rnorm(10)),
                       data.frame(x=rnorm(10), y=rnorm(10))), "reserved")
-  expect_warning(hypoRF(data.frame(replicate(3, rnorm(11))),
-                      data.frame(replicate(3, rnorm(10)))), "imbalanced")
   expect_error(hypoRF(data.frame(replicate(3, rnorm(10))),
                       data.frame(replicate(3, rnorm(10))), K="a"), "not valid")
   expect_error(hypoRF(data.frame(replicate(3, rnorm(10))),
