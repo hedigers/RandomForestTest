@@ -2,13 +2,12 @@ Package: hypoRF
 Type: Package
 Title: Random Forest Two-Sample Tests 
 Version: 1.0.1
-Authors@R: as.person(c(
-    "Hediger Simon <simon.hediger@uzh.ch> [aut, cre]", 
-    "Michel Loris <> [aut]",
-    "Naef Jeffrey <> [aut]"
-  ))
-Maintainer: Hediger Simon <simon.hediger@uzh.ch>
-Description:  An implementation of Random Forest-based two-sample tests as introduced in Hediger & Michel & Naef (2022): <https://www.sciencedirect.com/science/article/pii/S0167947322000159>. 
+Authors@R: c(
+    person(given = "Simon", family = "Hediger", role = c("aut", "cre"),
+           email = "simon.hediger@uzh.ch"),
+    person(given = "Loris", family = "Michel", role = "aut"),
+    person(given = "Jeffrey", family = "Naef", role = "aut"))
+Description:  An implementation of Random Forest-based two-sample tests as introduced in Hediger & Michel & Naef (2022). 
 License: GPL-3
 Imports: stats,
          ranger
