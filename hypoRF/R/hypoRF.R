@@ -28,9 +28,9 @@
 #' @seealso \code{\link[ranger]{ranger}}
 #' @examples
 #' # Using the default testing procedure (permutation test)
-#' x1 <- data.frame(x=stats::rt(100, df=1.5))
-#' x2 <- data.frame(x=stats::rnorm(100))
-#' hypoRF(x1, x2)
+#' x1 <- data.frame(x=stats::rt(50, df=1.5))
+#' x2 <- data.frame(x=stats::rnorm(50))
+#' hypoRF(x1, x2, num.trees = 50)
 #' # Using the exact binomial test
 #' hypoRF(x1, x2, K=1)
 #' @export
