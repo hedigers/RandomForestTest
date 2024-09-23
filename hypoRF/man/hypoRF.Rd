@@ -49,7 +49,8 @@ A list with elements
 \item\code{call:} Call to the function.}
 }
 \description{
-Performs a permutation two sample test based on the out-of-bag-error of random forest
+Performs a permutation two sample test based on the out-of-bag-error of random forest, see:
+\url{https://www.sciencedirect.com/science/article/pii/S0167947322000159}.
 }
 \examples{
 # Using the default testing procedure (permutation test)
@@ -60,5 +61,5 @@ hypoRF(x1, x2)
 hypoRF(x1, x2, K=1)
 }
 \seealso{
-\code{\link{ranger}}
+\code{\link[ranger]{ranger}}
 }

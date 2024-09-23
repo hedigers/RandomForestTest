@@ -25,7 +25,7 @@
 #' \item\code{importance_ranking:} The variable importance measure, when importance == "impurity".
 #' \item\code{cutoff:} The quantile of the importance distribution at level alpha.
 #' \item\code{call:} Call to the function.}
-#' @seealso \code{\link{ranger}}
+#' @seealso \code{\link[ranger]{ranger}}
 #' @examples
 #' # Using the default testing procedure (permutation test)
 #' x1 <- data.frame(x=stats::rt(100, df=1.5))
